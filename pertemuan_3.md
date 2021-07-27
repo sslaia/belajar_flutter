@@ -7,11 +7,11 @@ Pertemuan 3, 22 Juli 2021
 
 Kali lalu kita telah mengikuti bersama tutorial pertama [Write your first Flutter app, part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/?hl=id#0) dari [codelab](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/?hl=id#0).
 
-Dari pertemuan tsb. menjadi jelas bagi saya bahwa kita masih perlu orientasi tentang aplikasi yang kita gunakan untuk menulis kode flutter, yakni Android Studio (**AS**). Kalau kita tahu bagaimana bernavigasi dalam **AS** maka lebih gampang Anda mengikuti kalau misalnya saya mengatakan silakan buka file ini atau file itu. Atau silakan tekan tombol Run, dlsb. Karena itu sesi hari ini kita mulai dulu dengan introduksi ke Android Studio.
+Dari pertemuan tsb. menjadi jelas bagi saya bahwa kita masih perlu orientasi tentang aplikasi yang kita gunakan untuk menulis kode flutter, yakni Android Studio (**AS**). Kalau kita tahu bagaimana bernavigasi dalam **AS** maka lebih gampang kita mengikuti kalau misalnya saya mengatakan silakan buka file ini atau file itu. Atau silakan tekan tombol **Run**, dlsb. Karena itu sesi hari ini kita mulai dulu dengan introduksi ke Android Studio.
 
-Selain itu saya juga mengamati bahwa Anda agak kewalahan mengikuti tutorial tsb. di atas. Maka saya berpkir, baiklah saya menerangkan dulu anatomi kode sebuah aplikasi Android yang ditulis dalam Flutter/Dart.
+Selain itu saya juga mengamati bahwa Anda agak kewalahan mengikuti tutorial tsb. di atas. Maka saya berpkir, baiklah saya menerangkan dulu **anatomi kode sebuah aplikasi Android** yang ditulis dalam Flutter/Dart.
 
-Untuk itu saya menggunakan aplikasi yang bernama Kartu Nama. Kita akan belajar Flutter sambil menyempurnakan aplikasi Kartu Nama tsb. Jadi sambil kita belajar berbagai sintaks programming Dart, kita juga menciptakan kartu nama yang bisa kita gunakan nanti.
+Untuk itu saya menggunakan aplikasi yang bernama **Kartu Nama**. Kita akan belajar Flutter sambil menyempurnakan aplikasi Kartu Nama tsb. Jadi sambil kita belajar berbagai sintaks programming Dart, kita juga menciptakan kartu nama yang bisa kita gunakan nanti.
 
 
 ## Introduksi ke Android Studio

@@ -4,7 +4,7 @@ Pertemuan 2, 22 Juli 2021
 
 ## Pengantar
 
-Dalam pertemuan sebelumnya kita tidak sempat mengikuti tutorial pertama [Write your first Flutter app, part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/?hl=id#0) dari [codelab](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/?hl=id#0), karena waktu kita habis untuk men-_setup_ **Flutter** dan **Android Studio**. kedua ini, kita akan mengikuti apa yang direncanakan untuk pertemuan pertama minggu lalu.
+Dalam pertemuan sebelumnya kita tidak sempat mengikuti tutorial pertama [Write your first Flutter app, part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/?hl=id#0) dari [codelab](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/?hl=id#0), karena waktu kita habis untuk men-_setup_ **Flutter** dan **Android Studio**. Dalam pertemuan kedua ini, kita akan mengikuti apa yang direncanakan untuk pertemuan pertama minggu lalu.
 
 Itu bukan masalah. Belajar hal-hal mendasar tentang komputer yang kita pakai, serta bagaimana menginstalasi dan men-_setup_ berbagai aplikasi, juga termasuk pengetahuan.
 
