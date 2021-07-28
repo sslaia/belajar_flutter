@@ -28,7 +28,8 @@ Tips untuk multitasking, menjalankan beberapa aplikasi sekaligus
 
 ## Memeriksa kesiapan software (_software requirements_)
 
-1. Menginstalasi berbagai software yang diperlukan. Untuk pengembangan aplikasi dengan Flutter: **Flutter SDK** dan **Android Studio**, yang akan digunakan untuk menyunting kode dan emulator smartphone Android
+1. Menginstalasi berbagai software yang diperlukan. Untuk pengembangan aplikasi dengan Flutter: **Flutter SDK** dan **Android Studio**, yang akan digunakan untuk menyunting kode dan emulator smartphone Android. Panduan ada di [Cara Menginstalasi Android Studio dan Flutter di Windows 10
+](https://achida-id.blogspot.com/2021/07/cara-menginstalasi-android-studio-dan.html)
 2. Memeriksa apakah semua software yang dibutuhkan berjalan baik. Jalankan perintah berikut dari command prompt: `where.exe flutter dart adb` Perintah tsb. akan mengeluarkan nama lengkap folder di mana flutter, dart dan adb berada. <br>Bila ada yang dari antaranya yang dilaporkan tidak ditemukan, silakan mengikuti panduan berikut: [Merampungkan Instalasi Android Studio dan Flutter di Windows 10
 ](https://achida-id.blogspot.com/2021/07/merampungkan-instalasi-android-studio.html)
 3. Memeriksa lisensi Android. Jalankan perintah berikut di command prompt: `flutter doctor` Perhatikan entah semua dicentang hijau. Kalau ada yang ditandai tanda silang merah misalnya Android licenses, maka ikuti panduan di no.2 di atas tentang Android licenses.
