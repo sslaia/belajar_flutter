@@ -4,7 +4,7 @@ Ya'ahowu. Dalam folder ini berada semua panduan belajar bersama flutter.
 
 ### Teks panduan/pengantar
 
-- [Pertemuan 1, 15 Juli 2021](https://github.com/sslaia/belajar_flutter/blob/main/pertemuan_1.md)
+- [Pertemuan 1, 15 Juli 2021](./pertemuan_1.md)
 - [Pertemuan 2, 22 Juli 2021](https://github.com/sslaia/belajar_flutter/blob/main/pertemuan_2.md)
 - [Pertemuan 3, 29 Juli 2021](https://github.com/sslaia/belajar_flutter/blob/main/pertemuan_3.md)
 
