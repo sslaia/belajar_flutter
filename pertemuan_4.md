@@ -47,6 +47,8 @@ Sebagai editor, **AS** mempunyai berbagai alat yang menolong kita sebagai progra
 
 ## Meneruskan pembuatan aplikasi Kartu Nama (Bongkar-pasang berbagai widget)
 
+Aplikasi kartu nama ada di [Kartu Nama](https://github.com/sslaia/kartu_nama)
+
 Kita ingat titik tolak aplikasi ini kali lalu adalah menampilkan satu pesan teks ke layar. Kemudian kita merombaknya menjadi sebuah Kartu Nama dengan menampilkan foto dan beberapa teks.
 
 Untuk itu widget yang telah ada, yakni **Center** tidak memadai lagi untuk menampung berbagai widget tsb.
