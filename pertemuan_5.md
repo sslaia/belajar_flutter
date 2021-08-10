@@ -55,7 +55,7 @@ import 'package:google_fonts/google_fonts.dart';
           ),
 ```
 
-Nah menurut dokumentasi dari Google Fonts
+Nah menurut dokumentasi dari Google Fonts cara penggunaan paket ini di dalam teks adalah dengan mengubah seluruh nilai parameter **TextStyle** menjadi **GoogleFonts.[NAMA_FONTS]** mis. dalam contoh di bawah ini menggunakan huruf bernama *lato*.
 
 ```
           Text(
