@@ -61,7 +61,11 @@ Nah menurut dokumentasi dari Google Fonts
           Text(
             _pekerjaan,
             style: GoogleFonts.lato(
-              textStyle: TextStyle(fontSize: 14.0, letterSpacing: 2.5, fontWeight: FontWeight.bold, color: Colors.white),
+              textStyle: TextStyle(
+                  fontSize: 14.0, 
+                  letterSpacing: 2.5, 
+                  fontWeight: FontWeight.bold, 
+                  color: Colors.white),
             ),
           ),
 ```
