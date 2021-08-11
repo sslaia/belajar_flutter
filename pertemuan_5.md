@@ -16,12 +16,14 @@ Bagi seorang programmer menulis satu aplikasi itu tidak pernah selesai sekali ja
 
 Seluruh proses membongkar-pasang satu aplikasi untuk mengadopsi fitur baru dinamakan *refactoring*. Tidak jarang untuk mencapai tujuan itu, kerangka aplikasi harus diubah, berarti gonta-ganti widget sana sini.
 
-Hal yang sama terjadi dengan aplikasi [Kartu Nama](https://github.com/sslaia/kartu_nama). Masih ingat penampilan pertama aplikasi, yang hanya menampilkan satu teks di tengah? ![Refactoring Kartu Nama](./kartu_nama/kartu_nama_refactoring.jpg?raw=true) Kemudian kita menghapus widget tertentu (widget **Center**), menambahkan yang lain (widget **Image**, **Text**, **Icon** dan **SizedBox**), bahkan menggunakan widget yang memiliki anak-anak (*children*) (widget **Row** dan **Column**) dlsb. Karena kita ingin memasang foto, icon, memasang berbagai elemen di layar, kita telah membongkar-pasang (*refactoring*) aplikasi tsb. Jadi secara Anda tidak sadari Anda telah menjalani hidup nyata sebagai programmer!
+Hal yang sama terjadi dengan aplikasi [Kartu Nama](https://github.com/sslaia/kartu_nama). Masih ingat penampilan pertama aplikasi, yang hanya menampilkan satu teks di tengah? ![Refactoring Kartu Nama](./kartu_nama/kartu_nama3.jpg?raw=true) Kemudian kita menghapus widget tertentu (widget **Center**), menambahkan yang lain (widget **Image**, **Text**, **Icon** dan **SizedBox**), bahkan menggunakan widget yang memiliki anak-anak (*children*) (widget **Row** dan **Column**) dlsb. Karena kita ingin memasang foto, icon, memasang berbagai elemen di layar, kita telah membongkar-pasang (*refactoring*) aplikasi tsb. Jadi secara Anda tidak sadari Anda telah menjalani hidup nyata sebagai programmer!
 
 
 ## Membuat aplikasi Kartu Nama tampil profesional
 
 Bagaimana kita membuat aplikasi Kartu Nama tsb. tampil lebih profesional? Perubahan sedikit bisa mengakibatkan efek visual yang kuat.
+
+![Refactoring Kartu Nama](./kartu_nama/kartu_nama_refactoring.jpg?raw=true)
 
 Coba lihat mis. konsep pertama kartu nama dalam gambar di atas. Bagus, sederhana dan *to the point*. Tetapi bandingkan dengan gambar sebelah kanan. Hanya dengan memberi warna latarbelakang berbeda, kesan yang muncul terasa lebih intensif. Hal ini kemudian diperkuat lagi dengan membuat nama lebih besar serta menampilkan nomor telepon, alamat email serta alamat rumah dalam gaya sebuah kartu (menggunakan widget **Card**), yang memiliki efek bayangan.
 
