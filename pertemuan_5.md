@@ -28,6 +28,50 @@ Coba lihat mis. konsep pertama kartu nama dalam gambar di atas. Bagus, sederhana
 Bagaimana kita mencapai hal tsb.? Silakan membuka kode [Kartu Nama pada Pertemuan 5](https://github.com/sslaia/kartu_nama/blob/pertemuan-5/lib/main.dart) Dan sambil mengamati perubahan dalam kode itu, kita mengimplementasikan berbagai perbaikan yang disebut di atas.
 
 
+## Membuat teks dapat diklik (*clickable*)
+
+Ada banyak widget yang bisa digunakan untuk mencapai hal yang sama. Dalam latihan ini kita menggunakan paket [linkable](https://pub.dev/packages/linkable)
+
+1. Buka [linkable](https://pub.dev/packages/linkable) dan ikuti petunjuk instalasi di sana.
+2. Impor paket tsb. di awal berkas **main.dart**: 
+```
+import 'package:linkable/linkable.dart';
+```
+3. Ganti widget **Text** dengan **Linkable** dan tempatkan **text:** di depan parameter string.
+4. Selesai! Silakan mencoba sendiri apakah kini aplikasi menelpon otomatis terbuka bila mengklik nomor telepon dalam aplikasi tsb.
+
+
+## Menyesuaikan Manifest.xml aplikasi Android
+
+Kalau tidak terjadi apa-apa, walaupun telah memasang widget **Linkable** di atas, maka perlu menambah pesan dalam berkas surat pengantar Android, yang disebut **AndroidManifest.xml** (hal yang sama juga dituntut di iOS). Logikanya mirip kalau kita mengirim paket/parsel melalui jasa spedisi. Kita harus mendeklarasikan isi dari parsel tsb. sehingga petugas transportasi tahu dan membiarkan lewat.
+
+Berkas AndroidManifest.xml tsb. ada di **android/app/src/main**. Silakan mengikuti contoh mendeklarasikan hal-hal yang kita mau dibuat oleh sistem Android (membuka URL, aplikasi telpon dan email) di [https://pub.dev/packages/url_launcher](https://pub.dev/packages/url_launcher)
+
+
+## Menggunakan widget Row dengan ListTile
+
+Menggunakan widget **ListTile** kadang lebih elegan daripada **Row** karena memiliki kemungkinan parameter yang lebih.
+
+1. Melalui fungsi bola lampu, ganti widget **Row** menjadi **ListTile**.
+2. Kita akan menyediakan dua parameter **ListTile** yakni *leading* (di mana kita menempatkan icon) dan *title* (di mana kita menempatkan teks). Kita tidak perlu mengubah icon dan teks tsb. tinggal mengambilalih yang sudah ada.
+3. Nikmati!
+
+Perhatikan bahwa sekarang kita tidak perlu menggunakan widget **SizedBox** untuk menciptakan spasi antara icon dan teks! **ListTile** mengatur hal itu secara otomatis!
+
+Widget **ListTile** sering sekali digunakan terutama dalam membuat daftar. Coba perhatikan daftar pesan di Telegram, WhatsApp atau Gmail. Daftar tsb. menggunakan **ListTile**! Berarti Anda tinggal selangkah lagi untuk membuat klon tampilan aplikasi seperti Telegram, WhatsApp atau Gmail!
+
+
+## Menggunakan widget Card
+
+Pasti Anda pernah melihat tampilan kartu dengan menggunakan widget **Card** ini, hanya Anda mungkin tidak sadar. Bersama dengan **ListTile** widget **Card** sering digunakan baik untuk menampilkan daftar maupun untuk menampilkan potongan teks tertentu yang memberi kesan bagaikan sebuah kartu baik yang tampil sederhana, sehingga tidak begitu jelas, maupun tampil seperti melayang tiga dimensi.
+
+1. Melalui fungsi bola lampu, apit **ListTile** dengan **widget** (baris pertama).
+2. Ganti nama widget menjadi **Card**. Widget **Card** mempunyai satu anak(*child*), maka jadikan **ListTile** tadi menjadi anak dari **Card**.
+3. Ada banyak parameter yang bisa digunakan untuk **Card**. Kita menggunakan dua saja, yakni *elevation* dan *margin*. Paramater *elevation* menerima angka, seperti 4.0. Semakin besar angka tsb. semakin melayang *Card* itu dari latarbelakang. Coba bereksperimen dengan memasukkan angka 4.0, kemudian angka 16.0 untuk melihat bedanya. Semakin melayang kartu tsb. semakin tampak bayangan di bawahnya, yang membuat efek melayang itu.
+4. Parameter *margin* menerima widget **EdgeInsets**. Dalam contoh ini kita menggunakan simetris artinya angka yang sama digunakan untuk atas/bawah kalau vertikal dan kiri/kanan kalau horizonontal. Coba bereksperimen dengan angka-angka tsb. untuk melihat efeknya.
+5. Selesai. Nikmati hasil karya Anda! Untuk pertama kalinya Anda telah menciptakan aplikasi yang tampil profesional dan dibuat profesional!
+
+
 ## Menggunakan Google Fonts (*kalau ada waktu*)
 
 Google Fonts tersedia sebagai paket tambahan untuk Flutter di [https://pub.dev/packages/google_fonts](https://pub.dev/packages/google_fonts)
