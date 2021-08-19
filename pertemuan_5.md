@@ -1,11 +1,11 @@
 # Belajar Bersama Flutter
 
-Pertemuan 5, 12 Aug 2021
+Pertemuan 5, 19 Aug 2021
 
 
-## Merangkum kembali apa yang telah dipelajari minggu lalu
+## Merangkum kembali apa yang telah dipelajari kali lalu
 
-Pada pertemuan ke-4 minggu lalu kita telah memoles aplikasi [Kartu Nama](https://github.com/sslaia/kartu_nama) dengan menambah beberapa fitur: menambah foto sendiri, menambah icon, mengenal beberapa widget yang berkaitan (CircleAvatar, Icon, Row, Column), mengenal beberapa properti dari widget Text (mengubah besar serta gaya huruf, mengubah warna). Kita juga telah berkenalan bagaimana mengedit berkas pubspec.yaml dengan menambahkan informasi tentang PATH gambar.
+Pada pertemuan ke-4 kali lalu kita telah memoles aplikasi [Kartu Nama](https://github.com/sslaia/kartu_nama) dengan menambah beberapa fitur: menambah foto sendiri, menambah icon, mengenal beberapa widget yang berkaitan (CircleAvatar, Icon, Row, Column), mengenal beberapa properti dari widget Text (mengubah besar serta gaya huruf, mengubah warna). Kita juga telah berkenalan bagaimana mengedit berkas pubspec.yaml dengan menambahkan informasi tentang PATH gambar.
 
 Minggu ini kita membuat aplikasi [Kartu Nama](https://github.com/sslaia/kartu_nama) itu tampil profesional dan layak dipamerkan/dipajang kepada orang lain.
 
@@ -26,6 +26,8 @@ Bagaimana kita membuat aplikasi Kartu Nama tsb. tampil lebih profesional? Peruba
 ![Refactoring Kartu Nama](./kartu_nama/kartu_nama_refactoring.jpg?raw=true)
 
 Coba lihat mis. konsep pertama kartu nama dalam gambar di atas. Bagus, sederhana dan *to the point*. Tetapi bandingkan dengan gambar sebelah kanan. Hanya dengan memberi warna latarbelakang berbeda, kesan yang muncul terasa lebih intensif. Hal ini kemudian diperkuat lagi dengan membuat nama lebih besar serta menampilkan nomor telepon, alamat email serta alamat rumah dalam gaya sebuah kartu (menggunakan widget **Card**), yang memiliki efek bayangan.
+
+Dalam satu perusahaan tampilan aplikasi dirancang oleh tim desain. Kemudian rancangan tsb. diteruskan kepada tim penulis kode untuk menerjemahkan apa yang diinginkan para desainer ke dalam kode program.
 
 Bagaimana kita mencapai hal tsb.? Silakan membuka kode [Kartu Nama pada Pertemuan 5](https://github.com/sslaia/kartu_nama/blob/pertemuan-5/lib/main.dart) Dan sambil mengamati perubahan dalam kode itu, kita mengimplementasikan berbagai perbaikan yang disebut di atas.
 
