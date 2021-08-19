@@ -31,7 +31,7 @@ Dalam satu perusahaan tampilan aplikasi dirancang oleh tim desain. Kemudian ranc
 
 Bagaimana kita mencapai hal tsb.? Silakan membuka kode [Kartu Nama pada Pertemuan 5](https://github.com/sslaia/kartu_nama/blob/pertemuan-5/lib/main.dart) Dan sambil mengamati perubahan dalam kode itu, kita mengimplementasikan berbagai perbaikan yang disebut di atas.
 
-Namun saya lebih menganjurkan Anda membuka [Kartu Nama pada Pertemuan 4](https://github.com/sslaia/kartu_nama/blob/pertemuan-4/lib/main.dart) dan mengadakan berbagai bongkar pasang widget yang dirincikan di bawah ini untuk mencapai tujuan di atas. Hal ini pasti lebih bermanfaat bagi Anda, karena Anda bisa mempraktekkan sendiri berbagai perubahan tsb. dan mengerti prosesnya.
+Namun saya lebih menganjurkan Anda membuka [Kartu Nama pada Pertemuan 4](https://github.com/sslaia/kartu_nama/blob/pertemuan-4/lib/main.dart) dan mengadakan berbagai bongkar pasang widget yang dirincikan di bawah ini untuk mencapai tujuan di atas. Hal ini pasti lebih bermanfaat bagi Anda, karena Anda bisa mempraktekkan sendiri berbagai perubahan tsb. dan mengerti prosesnya. Baru setelah Anda menyelesaikannya, Anda melihat kode pada pertemuan 5 dan membandingkannya dengan kode Anda dan mengintegrasikan berbagai hal kecil yang ada di situ.
 
 
 ### Langkah 1: Mendeklarasikan berbagai variable 
@@ -183,7 +183,7 @@ Pasti Anda pernah melihat tampilan kartu dengan menggunakan widget **Card** ini,
 5. Selesai. Nikmati hasil karya Anda! Untuk pertama kalinya Anda telah menciptakan aplikasi yang tampil profesional dan dibuat profesional!
 
 
-## Menggunakan Google Fonts (*kalau ada waktu*)
+## Langkah 9: Menggunakan Google Fonts (*kalau ada waktu*)
 
 Google Fonts tersedia sebagai paket tambahan untuk Flutter di [https://pub.dev/packages/google_fonts](https://pub.dev/packages/google_fonts)
 
@@ -243,6 +243,8 @@ Selesai! Dengan kode sederhana ini Anda tak perlu membeli huruf profesional yang
 ## Referensi
 
 Flutter packages ada di [pub.dev/flutter/packages](https://pub.dev/flutter/packages)
+
+Berbagai dokumentasi, contoh, tutorial dlsb. ada di [https://flutter.dev/docs](https://flutter.dev/docs)
 
 Bantuan selalu dapat di [stockoverflow.com](https://www.stockoverflow.com) dan di berbagai situs di Internet (perhatikan yang ada medium dalam alamatnya).
 
