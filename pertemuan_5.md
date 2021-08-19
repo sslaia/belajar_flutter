@@ -104,7 +104,7 @@ menjadi
                 color: Colors.white,),
           )
 ```
-Perhatikan bahwa variable _namaPengguna kini menjadi bagian dari satu argumen bernama *text*, yang tidak ada dalam widget **Text**. 
+Perhatikan bahwa variable _nomorTelepon kini menjadi bagian dari satu argumen bernama *text*, yang tidak ada dalam widget **Text**. 
 
 4. Selesai! Silakan mencoba sendiri apakah kini aplikasi menelpon otomatis terbuka bila mengklik nomor telepon dalam aplikasi tsb. Bila tidak terjadi apa-apa, ikuti langkah 6 berikut
 
