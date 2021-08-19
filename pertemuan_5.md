@@ -31,6 +31,8 @@ Dalam satu perusahaan tampilan aplikasi dirancang oleh tim desain. Kemudian ranc
 
 Bagaimana kita mencapai hal tsb.? Silakan membuka kode [Kartu Nama pada Pertemuan 5](https://github.com/sslaia/kartu_nama/blob/pertemuan-5/lib/main.dart) Dan sambil mengamati perubahan dalam kode itu, kita mengimplementasikan berbagai perbaikan yang disebut di atas.
 
+Namun saya lebih menganjurkan Anda membuka [Kartu Nama pada Pertemuan 4](https://github.com/sslaia/kartu_nama/blob/pertemuan-4/lib/main.dart) dan mengadakan berbagai bongkar pasang widget yang dirincikan di bawah ini untuk mencapai tujuan di atas. Hal ini pasti lebih bermanfaat bagi Anda, karena Anda bisa mempraktekkan sendiri berbagai perubahan tsb. dan mengerti prosesnya.
+
 
 ### Langkah 1: Mendeklarasikan berbagai variable 
 
