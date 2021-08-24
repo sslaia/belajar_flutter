@@ -40,7 +40,7 @@ Untuk aplikasi dadu kita membutuhkan beberapa gambar dadu, yang akan kita tempat
 ```
 - Pastikan huruf a dari kata assets sejajar dengan huruf u dalam uses-material-design, lalu permulaan baris berikutnya (tanda **-**) mulai setelah dua spasi dari posisi a tadi, jadi di bawah s yang kedua (perhatikan kode itu baik-baik).
 
-4. Tekan pada *pub get* yang tertera di baris atas berkas pubspec.yaml atau buka terminal dan jalankan perintah `flutter pub get`. Setiap kali ada perubahan di berkas pubspec.yaml, perintah ini harus dijalankan supaya perubahan tsb. diregister di dalam aplikasi.
+4. Tekan pada *pub get* yang tertera di baris atas berkas pubspec.yaml atau buka terminal dalam Android Studio dan jalankan perintah `flutter pub get`. Setiap kali ada perubahan di berkas pubspec.yaml, perintah ini harus dijalankan supaya perubahan tsb. diregister di dalam aplikasi.
 
 
 ## Langkah 3: Mengenal StatefulWidget
@@ -49,7 +49,7 @@ Dalam aplikasi Kartu Nama kita telah menggunakan **StatelessWidget** dan dalam t
 
 Namun **StatelessWidget** tidak memungkinkan ada perubahan nilai atau isi dari widget di layar. Dalam Kartu Nama itu semua elemen di layar itu ditampilkan waktu aplikasi dijalankan dan selesai. Nomor telepon telepon atau gambar atau elemen lainnya tidak akan berubah lagi setelah ditampilkan. Kendati kita telah berkenalan juga dengan widget **Linkable**, yang sekurang-kurangnya membuat link bisa diklik dan membuka aplikasi lainnya. Namun pada dasarnya konten di layar tidak berubah.
 
-Tetapi hari ini kita belajar hal baru. Kita ingin bahwa pengguna bisa berinteraksi dengan aplikasi Dadu. Artinya bila pengguna menyentuh dadu atau tombol tertentu, gambar dadu juga berubah sesuai dengan angka yang diperoleh waktu melempar dadu.
+**Tetapi hari ini kita belajar hal baru**. Kita ingin bahwa pengguna bisa berinteraksi dengan aplikasi Dadu. Artinya bila pengguna menyentuh dadu atau tombol tertentu, gambar dadu juga berubah sesuai dengan angka yang diperoleh waktu melempar dadu.
 
 Untuk memungkinkan hal ini kita membutuhkan **StatefulWidget**. Pada prinsipnya **StatefulWidget** terus menerus mengamati perubahan yang terjadi di dalam berbagai widget yang ada di bawahnya. Secepat terdapat perubahan maka StatefulWidget akan menghapus elemen-elemen yang tampak di layar dan menampilkannya secara ulang (kendati pun gambar atau teksnya masih sama).
 
@@ -223,11 +223,16 @@ Widget **GestureDetector** menerima satu parameter **onTap** artinya apa yang ha
 
 Kini aplikasi Dadu telah selesai. Klik "Run" supaya dikompilasi dan ditampilkan di android emulator atau di smartphone yang terhubung ke laptop Anda!
 
-Selesai! Dengan kode-kode ini Anda telah membangun aplikasi interaktif pertama Anda! Pada pandangan pertama kode-kode itu terkesan rumit. Namun setelah dipilah-pilah, rupanya tidak serumit yang disangka!
+Selesai! 
 
-Sengaja saya memberi tiga kemungkinan interaksi (melalui dua tombol dan satu GestureDetector), supaya Anda memiliki beberapa pilihan yang Anda bisa pilih salah satu di aplikasi yang Anda tulis nanti.
 
-Selain itu sambil lalu Anda telah belajar juga bagaimana memanipulasi teks di layar berdasarkan sentuhan di daerah tertentu di layar.
+## Penutup
+
+Dengan kode-kode ini Anda telah membangun aplikasi interaktif pertama Anda! Pada pandangan pertama kode-kode itu terkesan rumit. Namun setelah dipilah-pilah, rupanya tidak serumit yang disangka!
+
+Sengaja saya memberi **tiga** kemungkinan interaksi (melalui **dua** tombol dan **satu** GestureDetector), supaya Anda memiliki beberapa pilihan, sehingga Anda bisa pilih salah satu bila diperlukan dalam pembuatan aplikasi yang Anda tulis sendiri nanti.
+
+Selain itu sambil lalu Anda telah belajar juga bagaimana memanipulasi teks di layar berdasarkan sentuhan di daerah tertentu di layar. Coba bayangkan aplikasi atau penggunaan kemungkinan seperti ini.
 
 **Pertanyaan:** Hal apa saja menurut Anda membutuhkan interaksi seperti ini?
 
@@ -236,7 +241,7 @@ Klik di [Aplikasi Dadu](https://github.com/sslaia/dadu_app/blob/pertemuan-6/lib/
 
 ## Referensi
 
-Kita bisa melihat daftar icon serta namanya, yang kita bisa gunakan dalam kode kita, di [Google Fonts[(https://fonts.google.com/icons) dan pilih icons. Di situ juga terdapat ratusan huruf yang kita bisa gunakan secara bebas, termasuk huruf profesional, yang berharga ratusan dollar. 
+Kita bisa melihat daftar icon serta namanya, yang kita bisa gunakan dalam kode kita, di [Google Fonts](https://fonts.google.com/icons) dan pilih icons. Di situ juga terdapat ratusan huruf yang kita bisa gunakan secara bebas, termasuk huruf profesional, yang berharga ratusan dollar. 
 
 Flutter packages ada di [pub.dev/flutter/packages](https://pub.dev/flutter/packages)
 
