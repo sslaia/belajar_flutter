@@ -7,29 +7,13 @@ Pertemuan 6, 26 Agustus 2021
 
 Pada pertemuan-pertemuan sebelumnya kita telah belajar beberapa widget dasar sambil mempraktekkan pneggunaannya dalam pembuatan aplikasi Kartu Nama. Kode akhir yang tampak profesional bisa dilihat di [Kartu Nama](https://github.com/sslaia/kartu_nama/blob/pertemuan-5/lib/main.dart).
 
-Pada pertemuan ini kita maju selangkah lagi, belajar bagaimana membuat supaya pengguna dapat berinteraksi dengan aplikasi kita atau yang umum disebut *interaktif*. Untuk itu kita belajar widget baru yang memungkinkan interaksi tsb. yakni **StatefulWidget** dan kedua menggunakan widget **FloatingActionButton**. **ElevatedButton** dan **GestureDetector**. Kemudian kita belajar menggunakan variable dan menciptakan satu fungsi yang bisa melaksanakan perintah tertentu.
+Pada pertemuan ini kita maju selangkah lagi, belajar bagaimana membuat supaya pengguna dapat berinteraksi dengan aplikasi kita atau yang umum disebut *interaktif*. Untuk itu kita belajar widget baru yang memungkinkan interaksi tsb. yakni **StatefulWidget** dan kedua menggunakan widget **FloatingActionButton**, **ElevatedButton** dan **GestureDetector**. Kemudian kita belajar menggunakan variable dan menciptakan satu fungsi yang bisa melaksanakan perintah tertentu.
 
 Sebagai sarana untuk belajar berbagai widget ini kita akan membangun aplikasi Dadu. Sebagai basis kita gunakan templat aplikasi dari **Android Studio** (sebelah kiri dalam gambar di bawah ini) lalu langkah demi langkah kita membongkar pasang berbagai widget sehingga mencapai aplikasi Dadu yang kita inginkan (gambar sebelah kanan).
 
 ![Aplikasi Dadu](./dadu_app/dadu_app.jpg?raw=true)
 
-## Langkah 1: Mempersiapkan gambar dadu
-
-Untuk aplikasi dadu kita membutuhkan beberapa gambar dadu, yang akan kita tempatkan dalam folder *images* dalam aplikasi dadu.
-
-1. Buat folder images di folder utama aplikasi dadu.
-2. Klik [di sini](./dadu_app/dadu.zip) lalu tekan tombol download untuk mengunduh gambar tsb. Setelah didownload, buka berkas tsb. dan kopi semua gambar di dalamnya ke folder *images* yang baru dibuat tadi.
-3. Buka berkas pubspec.yaml dan tambahkan kode berikut (info folder images) setelah baris berbunyi **uses-maerial-design: true** (baris ke-45)
-```
-  assets:
-    - images/
-```
-Pastikan huruf a dari kata assets sejajar dengan huruf u dalam uses-material-design, lalu permulaan baris berikutnya (tanda **-**) mulai setelah dua spasi dari posisi a tadi, jadi di bawah s yang kedua (perhatikan kode itu baik-baik).
-
-4. Tekan pada *pub get* yang tertera di baris atas berkas pubspec.yaml atau buka terminal dan jalankan perintah `flutter pub get`. Setiap kali ada perubahan di berkas pubspec.yaml, perintah ini harus dijalankan supaya perubahan tsb. diregister di dalam aplikasi.
-
-
-## Langkah 2: Menciptakan aplikasi dadu_app
+## Langkah 1: Menciptakan aplikasi dadu_app
 
 1. File > New > New Flutter project
 2. Tekan tombol **Next**
@@ -39,6 +23,22 @@ Pastikan huruf a dari kata assets sejajar dengan huruf u dalam uses-material-des
 6. Tekan tombol **Finish**
 
 Kini Anda berada dalam kode aplikasi yang akan kita sulap menjadi aplikasi **Dadu**, seperti bisa dilihat di sini: [Titik tolak Aplikasi Dadu](https://github.com/sslaia/dadu_app/blob/main/lib/main.dart)
+
+
+## Langkah 2: Mempersiapkan gambar dadu
+
+Untuk aplikasi dadu kita membutuhkan beberapa gambar dadu, yang akan kita tempatkan dalam folder *images* dalam aplikasi dadu.
+
+1. Buat folder images di folder utama aplikasi dadu dalam **Android Studio**.
+2. Klik [di sini](./dadu_app/dadu.zip) lalu tekan tombol download untuk mengunduh gambar tsb. Setelah didownload, buka berkas tsb. dan kopi semua gambar di dalamnya ke folder *images* yang baru dibuat tadi di dalam **Android Studio**.
+3. Buka berkas **pubspec.yaml** dan tambahkan kode berikut setelah baris berbunyi **uses-maerial-design: true** (baris ke-45)
+```
+  assets:
+    - images/
+```
+- Pastikan huruf a dari kata assets sejajar dengan huruf u dalam uses-material-design, lalu permulaan baris berikutnya (tanda **-**) mulai setelah dua spasi dari posisi a tadi, jadi di bawah s yang kedua (perhatikan kode itu baik-baik).
+
+4. Tekan pada *pub get* yang tertera di baris atas berkas pubspec.yaml atau buka terminal dan jalankan perintah `flutter pub get`. Setiap kali ada perubahan di berkas pubspec.yaml, perintah ini harus dijalankan supaya perubahan tsb. diregister di dalam aplikasi.
 
 
 ## Langkah 3: Mengenal StatefulWidget
