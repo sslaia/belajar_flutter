@@ -15,6 +15,8 @@ Sebagai sarana untuk belajar berbagai widget ini kita akan membangun aplikasi Da
 
 ## Langkah 1: Menciptakan aplikasi dadu_app
 
+Silakan membuka program Android Studio.
+
 1. File > New > New Flutter project
 2. Tekan tombol **Next**
 3. Di **Project name** isikan: **dadu_app**
