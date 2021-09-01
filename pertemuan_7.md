@@ -7,7 +7,7 @@ Pertemuan 7, 2 September 2021
 
 Kali lalu kita telah membuat aplikasi dadu dengan mengelaborasi widget Button serta GestureDector, yang memungkinkan interaksi dengan aplikasi.
 
-Hari ini kita memperluas interaksi ini dengan menggunakan daftar. Untuk itu kita akan menciptakan aplikasi Daftar Burung Nias.
+Hari ini kita memperluas interaksi ini dengan menggunakan daftar. Untuk itu kita akan menciptakan aplikasi [Burung Nias](https://github.com/sslaia/burung_nias/blob/main/lib/main.dart).
  
 
 ## Langkah 1: Membuat aplikasi baru
@@ -206,7 +206,8 @@ Simpan kode dengan menekan tombol Ctrl+S dan tombol sembarang tsb. telah berfung
 
 ## Refleksi
 
-Coba bayangkan aplikasi mana saja bisa kita buat dengan berbagai fitur ini?
+1. Coba bayangkan aplikasi mana saja bisa kita buat dengan berbagai fitur ini?
+2. Coba bereksperimen dengan berbagai widget ini dan kalau ada yang salah (_error_) bandingkan kode Anda dengan kode final yang saya persiapkan di [Burung Nias](https://github.com/sslaia/burung_nias/blob/pertemuan-7/lib/main.dart)
 
 
 ## Referensi
