@@ -8,7 +8,11 @@ Pertemuan 7, 2 September 2021
 Kali lalu kita telah membuat aplikasi dadu dengan mengelaborasi widget Button serta GestureDector, yang memungkinkan interaksi dengan aplikasi.
 
 Hari ini kita memperluas interaksi ini dengan menggunakan daftar. Untuk itu kita akan menciptakan aplikasi [Burung Nias](https://github.com/sslaia/burung_nias/blob/main/lib/main.dart).
- 
+
+Begini gambar aplikasi titik tolak dan versi finalnya:
+
+![Aplikasi Burung Nias](./burung_nias/burung_nias.png?raw=true)
+
 
 ## Langkah 1: Membuat aplikasi baru
 1. Buat aplikasi baru dengan File > New > New Flutter project
