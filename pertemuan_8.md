@@ -81,18 +81,18 @@ Nah cara untuk bagaimana membongkar bungkusan tsb. akan kita pelajari dalam cont
 ## Langkah 3: Menyisipkan kode yang telah dipersiapkan ke berkas main.dart
 
 1. Buka kode yang telah dipersiapkan di [https://github.com/sslaia/gogowaya/blob/main/lib/main.dart](https://github.com/sslaia/gogowaya/blob/main/lib/main.dart)
-4. Kopi semua kode di dalamnya
+4. Kopi semua kode di dalamnya (dari baris 1 sampai dengan 133).
 5. Sisipkan ke dalam berkas main.dart, yang Anda kosongkan tadi di dalam Android Studio.
 
 ## Langkah 4: Mengamati kode
 
-Mari mengamati kode aplikasi Gogowaya, melihat mana yang telah kita kenal dan mana yang baru.
+Mari mengamati kode aplikasi **Gogowaya**, melihat mana yang telah kita kenal dan mana yang baru.
 
 Untuk sementara lompati dulu baris 1-52.
 
-Kalau diamati, semua kodenya familiar sampai baris 80.
+Kalau kita amati satu per satu, nampaknya semua kodenya familiar sampai baris 80.
 
-Dari baris 81 mulai widget baru, yang belum pernah kita pelajari, yakni **FutureBuilder**, yang di dalamnya ada pernyataan kondisi **if**.
+Tetapi di baris 81 ada widget baru, yang belum pernah kita pelajari, yakni **FutureBuilder**, yang di dalamnya ada pernyataan kondisi **if**.
 
 ```
     return Scaffold(
@@ -102,7 +102,7 @@ Dari baris 81 mulai widget baru, yang belum pernah kita pelajari, yakni **Future
       body: FutureBuilder<List<Photo>>(
         future: fetchPhotos(http.Client()),
         builder: (context, snapshot) {
-          ...
+          // di sini ada kondisi if
         },
       ),
     );
@@ -110,9 +110,9 @@ Dari baris 81 mulai widget baru, yang belum pernah kita pelajari, yakni **Future
 
 Seperti namanya **FutureBuilder** merupakan satu widget yang memungkinkan kita mengirim satu kode ke internet dan menunggu sampai hasilnya dikirim balik, yang bisa berlangsung beberapa saat di masa depan (_future_)!
 
-Apa yang mau kita capai dengan widget **FutureBuilder**? Kita ingin mendapatkan daftar foto dari internet. Maka kita langsung menuliskannya di sini `FutureBuilder<List<Photo>>.
+Apa yang mau kita capai dengan widget **FutureBuilder**? Kita mau supaya kita mendapatkan daftar foto dari internet. Karena itu kita langsung menuliskannya juga di sini `FutureBuilder<List<Photo>>`.
 
-Hal ini membedakan aplikasi Gogowaya dari aplikasi yang pernah kita tulis sebelumnya (Dadu, Burung Nias). Keseluruhan `body` aplikasi Gogowaya merupakan hal yang terjadi di masa depan. Kita tidak tahu mau menampilkan apa ke layar smartphone, karena hal itu tergantung dari hasil permintaan ke internet.
+Penggunaan FutureBuilder ini membedakan aplikasi **Gogowaya** dengan aplikasi yang pernah kita tulis sebelumnya (Dadu dan Burung Nias). Keseluruhan `body` aplikasi **Gogowaya** merupakan hal yang terjadi di masa depan. Praktisnya kita tidak tahu apa yang akan kita tampilkan ke layar smartphone, karena hal ini sangat tergantung dari hasil permintaan yang dikirim ke internet.
 
 Widget **FutureBuilder** menuntut sekurangnya dua parameter, yakni `future`, yakni operasi yang menarik data dari internet, dan `builder`, yakni apa yang harus dibangun (_build_) setelah memproses data dari internet tsb.
 
@@ -132,9 +132,9 @@ Coba perhatikan kondisi **if** yang digunakan untuk menampilkan konten yang tela
           }
 ```
 
-1. Harus ditangkap apakah ada _error_. Ini adalah praktek umum dan bahkan diharuskan, supaya pengguna smartphone tahu apa yang terjadi kalau konten tidak muncul-muncul juga di layar.
-2. Bila proses menarik data kelamaan (misalnya koneksi internet yang lamban), maka harus ditunjukkan di layar, bahwa data sedang didownload, dengan menggunakan widget **CircularProgressIndicator**.
-3. Baru kalau semuanya berhasil data yang ada diproses (melalui fungsi **PhotosList** di baris 89)
+1. Pertama fungsi menjaring _error_. Ini adalah praktek umum dan bahkan diharuskan, supaya pengguna smartphone tahu apa yang terjadi kalau konten tidak muncul-muncul juga di layar.
+2. Bila proses menarik data kelamaan (misalnya koneksi internet yang lamban), maka harus ditunjukkan di layar, bahwa data sedang didownload, dengan menggunakan satu widget bernama **CircularProgressIndicator**.
+3. Baru kalau semuanya berhasil, data yang telah diperoleh akan diproses (melalui fungsi **PhotosList** di baris 89).
 
 ## Langkah 5: Mengamati bagian menampilkan data
 
@@ -143,7 +143,7 @@ Dari baris 101 mulai bagian menampilkan data dari internet, yang telah diproses.
 1. Pada baris 104 dibuat variable `photos`, yang isinya diambil dari satu daftar bernama Photo dengan menulis `final List<Photo> photos;` Kita tahu bahwa daftar tsb. ada isinya sekarang dan isinya berasal dari internet.
 2. Sekarang kita menggunakan variable `photos` untuk menampilkan daftar foto dari internet.
 3. Berdasarkan apa yang akan kita analisa **di bawah ini** kita tahu bahwa properti dari setiap foto yang kita simpan dalam variable `photos` mencakup _caption_ foto, yang disimpan dalam variable `title` dan alamat foto tsb. di internet, yang disimpan dalam variable `url`.
-4. Sekarang dengan menggunakan widget **ListView.builder**, satu widget yang memungkinkan membuat pengulangan (_loop) untuk menarik satu per satu item di dalam satu daftar, lalu menampilkannya di layar melalui widget **ListTile**. Dalam contoh ini widget **ListTile** diapit dengan widget **Card** untuk mendapatkan tampilan seperti kartu.
+4. Sekarang dengan menggunakan widget **ListView.builder**, satu widget yang memungkinkan membuat pengulangan (_loop_) untuk menarik satu per satu item di dalam satu daftar, lalu menampilkannya di layar melalui widget **ListTile**. Dalam contoh ini widget **ListTile** diapit dengan widget **Card** untuk mendapatkan tampilan seperti kartu.
 
 ## Langkah 6: Mengirim perintah untuk menarik data dari internet
 
@@ -217,7 +217,7 @@ class Photo {
 
 ## Langkah 8: Menarik data dari internet dan memasukkannya dalam daftar Photo
 
-Sekarang kita lihat bagian terakhir kode aplikasi Gogowaya. Kita telah mendefinisikan klas foto, yang menampung properti dari setiap foto yang akan didownload dari internet.
+Sekarang kita lihat bagian terakhir kode aplikasi Gogowaya. Kita telah mendefinisikan klas foto, yang memberi struktur dari data yang diterima dan menampung properti dari setiap foto yang didownload dari internet.
 
 Kodenya demikian:
 ```
@@ -238,7 +238,7 @@ List<Photo> parsePhotos(String responseBody) {
 }
 ```
 
-Yang pertama nampak fungsi `fetchPhotos()` yang dipanggil dari baris 82 kode aplikasi tadi. Kemudian kita lihat tipe datanya adalah `List`, yang dalam hal ini daftar bernama `Photo`, sebagaimana didefinisikan dalam klas Photo di atas. Dan karena daftar ini baru akan dibuat di masa depan, daftar photo ini dibungkus dalam **Future**.
+Pertama kita melihat ada fungsi `fetchPhotos()` yang kita tahu dipanggil dari baris 82 kode aplikasi tadi. Kemudian kita lihat tipe datanya adalah `List`, yang dalam hal ini daftar bernama `Photo`, sebagaimana didefinisikan dalam klas Photo di atas. Dan karena daftar ini baru akan dibuat di masa depan, daftar photo ini dibungkus dalam **Future**.
 
 Selebihnya adalah menarik data dari internet, melalui `client.get()`, yang tentu saja kita dapat dalam format json. Hal ini disimpan dalam satu variable bernama `response`. Dalam `response` ini kita mendapat entah data yang kita inginkan atau pesan `error` kalau ada gangguan.
 
@@ -252,7 +252,7 @@ Memang contoh ini tidak mengirim foto sungguhan. Supaya bisa melihat foto sunggg
 
 Jalan kembali aplikasi dan nikmati hasilnya!
 
-![Gogowaya](./towi-towi/towi2.jpg?raw=true) (sebelah kiri)
+![Gogowaya](./towi_towi/towi2.jpg?raw=true) (sebelah kiri)
 
 
 ## Refleksi
