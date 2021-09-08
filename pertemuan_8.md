@@ -5,9 +5,9 @@ Pertemuan 8, 9 September 2021
 
 ## Merangkum kembali apa yang telah dipelajari kali lalu
 
-Sampai sekarang kita telah mempelajari banyak widget, yang bisa menghasilkan aplikasi canggih seperti Dadu dan Burung Nias, yang kita ciptakan minggu lalu.
+Sampai sekarang kita telah mempelajari banyak widget, yang bisa menghasilkan aplikasi canggih seperti [Dadu](https://github.com/sslaia/dadu_app) dan [Burung Nias](https://github.com/sslaia/burung_nias), yang kita ciptakan minggu lalu.
 
-Melalui pembuatan berbagai aplikasi tsb. kita semakin akrab dengan widget-widget yang sering digunakan dalam aplikasi android seperti Text, Button, Image dlsb.
+Melalui pembuatan berbagai aplikasi tsb. kita semakin akrab dengan widget-widget yang sering digunakan dalam aplikasi android seperti **Text**, **Button**, **Image** dlsb.
 
 Minggu lalu kita konsentrasi pada pembuatan daftar (_list_) sederhana. Kita membuat satu daftar berisi nama sepuluh burung Nias.
 
@@ -21,11 +21,11 @@ Hari ini kita mengembangkan lagi pengetahuan kita tentang daftar. Daftar yang ki
 
 Hari ini kita maju selangkah lagi dalam pemrograman mobile. Kita mengakses daftar konten dari Internet, memprosesnya dan menampilkannya dalam aplikasi kita. Dengan menguasai hal ini, Anda nanti bisa menerapkan mekanisme yang sama untuk menarik konten (berita, foto, pos, dari situs internet, media sosial, dlsb.) dari Internet dan menampilkannya dalam aplikasi buatan Anda.
 
-Untuk memungkinkan hal ini perlu satu mekanisme yang dinamakan API (_application programming interface_). Badan Pusat Statistik (BPS) misalnya menyediakan API, sehingga pengembang aplikasi (_developer_) bisa mengakses data dari BPS dan mengintegrasikannya dalam aplikasi yang mereka tulis.
+Untuk memungkinkan hal ini perlu satu mekanisme yang dinamakan API (_application programming interface_). Badan Pusat Statistik (BPS) misalnya menyediakan API, sehingga pengembang aplikasi (_developer_) bisa mengakses data dari BPS dan mengintegrasikannya dalam aplikasi yang mereka tulis (lihat [WebAPI BPS](https://webapi.bps.go.id/developer/)).
 
 Yang disebut API tsb. terdiri dari kunci (API key), yang harus kita mohon dari badan/situs yang datanya ingin kita gunakan, mis. BPS dalam contoh di atas. Dan tentu saja mempelajari bagaimana mengakses data melalui API yang ditelah disusun oleh BPS.
 
-Untuk hari ini kita menggunakan API sederhana, yang tidak membutuhkan kunci, tetapi proses mempelajari APInya sama untuk semua.
+Untuk hari ini kita menggunakan API sederhana, yang tidak membutuhkan kunci, tetapi proses mempelajari struktur data yang ditawarkan melalui APInya sama untuk semua.
 
 Untuk latihan ini kita menggunakan panduan yang telah disusun oleh tim Flutter dari Google di [Parse JSON in the background](https://flutter.dev/docs/cookbook/networking/background-parsing)
 
@@ -33,7 +33,9 @@ Mengingat topik ini lebih kompleks, saya tidak akan memaksakan untuk menyelesaik
 
 ## Menarik data dari Internet dengan aplikasi Gogowaya
 
-Sebagai sarana praktek untuk mempelajari bagaimana menarik data dari Internet dan memprosesnya, kita akan membuat aplikasi [[Gogowaya](https://github.com/sslaia/gogowaya), yaitu satu aplikasi yang menarik foto-foto dari Internet. Nanti mekanisme yang sama bisa digunakan untuk menarik foto dari flicker.com, pexels.com, pixabay.com, unsplash.com dlsb.
+Sebagai sarana praktek untuk mempelajari bagaimana menarik data dari Internet dan memprosesnya, kita akan membuat aplikasi [Gogowaya](https://github.com/sslaia/gogowaya), yaitu satu aplikasi yang menarik foto-foto dari Internet. Nanti mekanisme yang sama bisa digunakan untuk menarik foto dari flicker.com, pexels.com, pixabay.com, unsplash.com dlsb.
+
+Tetapi hal ini tidak hanya berlaku untuk foto, data yang ditarik bisa teks, berita, foto, dokumen, dlsb.
 
 ## Mengenal JSON
 
@@ -50,7 +52,7 @@ Namun bagaimana kalau setiap item itu masih memiliki apa yang dalam bahasa pemro
 
 Nah, apakah properti ini? Satu daftar? Ternyata tidak! Dalam bahasa pemrograman namanya ini obyek (_object_). Jadi dalam kenyataanya daftar kita sebenarnya merupakan daftar obyek: `daftar_foto = [obyek1, obyek2, obyek2]` Lihat gambar berikut:
 
-![daftar foto](./gogowaya/dafar_foto.png?raw=true)
+![daftar foto](./gogowaya/daftar_foto.png?raw=true)
 
 Dan memang demikianlah kita akan menemukan berbagai data yang akan kita terima dari internet. Sebaliknya kalau nanti kita ingin mengirim data ke Internet kita harus menerjemahkannya ke dalam format seperti ini. Keseluruhannya daftar itu sendiri nanti menjadi satu obyek saja, sehingga bisa dikirim kemana-mana.
 
