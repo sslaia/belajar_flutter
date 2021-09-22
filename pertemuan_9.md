@@ -5,21 +5,21 @@ Pertemuan 9, 23 September 2021
 
 ## Merangkum kembali apa yang telah dipelajari kali lalu
 
-Dalam dua pertemuan lalu kita telah mengenal cara mengakses data dari Internet melalui satu koneksi standar yang disebut API (_application programming interface_).
+Dalam dua pertemuan terakhir kita telah mengenal cara mengakses data dari Internet melalui satu koneksi standar yang disebut API (_application programming interface_).
 
 Pertama kita mencoba hal ini melalui aplikasi foto bernama [Gogowaya](https://github.com/sslaia/gogowaya) dan kemudian melalui aplikasi sejenis berita [Towi-Towi](https://github.com/sslaia/towi).
 
 Melalui dua aplikasi tsb. kita telah berkenalan dengan berbagai perangkat dasar untuk mengakses data dari berbagai website mis. foto (flickr.com, unsplash.com, pexels.com dst), berita (detik.com, thejakartapost.com, dst.), berbagai data lainnya (bps.go.id, bmkg.co.id, dst.)
 
-Minggu ini kita meneruskan eksplorasi kita dengan mencari tahu bagaimana menciptakan layar layar berikut di dalam aplikasi dan bagaimana mengirim data ke layar tsb.
+Minggu ini kita meneruskan eksplorasi kita dengan mencari tahu bagaimana menciptakan layar baru di dalam aplikasi dan bagaimana mengirim data ke layar tsb.
 
 ## Navigasi ke layar baru di Flutter
 
 Sampai sekarang aplikasi kita hanya memiliki satu layar saja. Aplikasi [Kartu](https://github.com/sslaia/kartu_nama/tree/pertemuan-5a) hanya menampilkan satu  layar di mana tertera nama, nomor telepon dan alamat. Demikian juga aplikasi [Dadu](https://github.com/sslaia/dadu_app/blob/pertemuan-6/lib/main.dart) serta aplikasi [Burung Nias](https://github.com/sslaia/burung_nias/blob/pertemuan-7/lib/main.dart) dan tentu saja aplikasi Gogowaya dan Towi-Towi di atas.
 
-Namun dalam hidup nyata selalu ada saja skenario di mana kita perlu membuka layar baru untuk menampilkan konten yang berbeda dari layar sebelumnya. Dan kenyataannya hampir semua aplikasi menggunakan sekurang-kurangnya dua layar kalau tidak lebih.
+Namun dalam hidup nyata selalu ada saja skenario di mana kita perlu membuka layar baru untuk menampilkan konten yang berbeda dari layar sebelumnya. Dan kenyataannya hampir semua aplikasi menggunakan sekurang-kurangnya dua layar, kalau tidak lebih.
 
-Bagaimana kita mengenal mekanismenya? Kita akan menggunakan panduan dari Google berjudul [Navigate to a new screen and back](https://flutter.dev/docs/cookbook/navigation/navigation-basics) dan menggunakan pengetahuan itu untuk memodifikasi aplikasi [Gogowaya](https://github.com/sslaia/gogowaya) sehingga dengan mengetuk satu item, detail dari item tsb. ditampilkan di layar baru.
+Untuk belajar mekanisme pembuatan layar berbeda ini, kita menggunakan panduan dari Google berjudul [Navigate to a new screen and back](https://flutter.dev/docs/cookbook/navigation/navigation-basics) dan menggunakan pengetahuan itu untuk memodifikasi aplikasi [Gogowaya](https://github.com/sslaia/gogowaya) sehingga dengan mengetuk satu item, detail dari item tsb. ditampilkan di layar baru.
 
 Pada akhir sesi kita hari ini, demikian nanti hasil akhir aplikasi ![Aplikasi Gogowaya](./gogowaya/gogowaya2.jpg?raw=true)
 
@@ -47,7 +47,7 @@ Untuk sementara abaikan tanda kesalahan (_error_) di LayarPertama() tsb, karena 
 
 ## Langkah 3: Menyisipkan kode contoh
 
-1. Kopi kode yang telah dipersiapkan berikut ini dengan menekan tombol ikon kopi di sebelah kanan atas blok kode berikut
+1. Kopi kode yang telah dipersiapkan berikut dengan menekan tombol ikon kopi di sebelah kanan atas blok kode berikut:
 ```
 class LayarPertama extends StatelessWidget {
   const LayarPertama({Key? key}) : super(key: key);
@@ -155,8 +155,6 @@ Sekarang kita ingin supaya bila kita mengklik satu item di dalam aplikasi Gogowa
 
 ## Langkah 2: Ciptakan kelas layar kedua
 
-Layar kedua di mana kita menampilkan detil item yang kita tekan dari daftar foto tsb. kita beri nama **HalamanRincian**. Dari contoh di atas kita tahu hal ini bisa kita buat dengan menciptakan widget baru StatelessWidget. Namun untuk mempersingkat waktu kita kopi dan modifikasi saja blok kode yang baru kita buat tadi.
-
 1. Buka aplikasi yang tadi kita buat dan kopi semua kode mulai dari baris 58 berisi kelas LayarKedua.
 2. Kembali ke berkas main.dart dari aplikasi Gogowaya, pergi ke akhir berkas, dan klik untuk meletakkan penunjuk mouse di baris paling akhir. Tekan Enter beberapa kali.
 3. Di baris 126 sisipkan blok kode LayarKedua, yang kita kopi dari aplikasi sebelumnya.
@@ -165,11 +163,11 @@ Layar kedua di mana kita menampilkan detil item yang kita tekan dari daftar foto
 
 Kita tahu bahwa di halaman utama Gogowaya kita melihat satu daftar panjang. Setiap item ditampilkan dalam sebuah kartu. Kita ingin supaya setiap kali kita mengklik salah satu item tsb. halaman rincian dari item itu terbuka di layar baru.
 
-Identifikasi di mana ada kode menampilkan item-item tsb. Kita melihat bahwa kali lalu kita menggunakan widget ListTile untuk menampilkan item-item foto (baris 116-119).
+Cobalah mengidentifikasi di mana kode untuk menampilkan item-item tsb. berada. Kita melihat bahwa kali lalu kita menggunakan widget **ListTile** untuk menampilkan item-item foto (baris 116-119).
 
-Yang belum kita manfaatkan adalah parameter dari widget ListTile, yang merekam kalau kita menekan di item yang ditampilkannya. Marilah memanfaatkannya:
+Widget **ListTile** memiliki fungsi untuk meregister entah kita menekan salah satu item di dalam daftar yang ditampilkannya. Kali lalu kita belum memanfaatkan kemungkinan ini. Marilah sekarang memanfaatkannya:
 
-1. Klik di akhir baris 119 (baris subtitle, kalau di tempat Anda di baris lain silakan menyesuaikan) lalu buat garis baru dengan menekan Enter.
+1. Klik di akhir baris 119 (baris _subtitle_, kalau di tempat Anda hal ini berada di baris lain silakan menyesuaikannya) lalu buat garis baru dengan menekan Enter.
 2. Silakan mulai mengetik **on** dan dalam jendela yang terbuka Anda melihat beberapa opsi, pilihlah **onTap**.
 3. Dari aplikasi yang kita buat tadi, kita tahu bahwa kita perlu menggunakan metode push di Navigator. Maka gantilah keseluruhan baris onTap tadi di baris 120 dengan kode berikut sehingga akan menjadi sbb:
 
@@ -182,6 +180,7 @@ Yang belum kita manfaatkan adalah parameter dari widget ListTile, yang merekam k
 
 ```
 Singkatnya persis sama dengan baris kode yang kita gunakan dalam aplikasi sebelumnya.
+
 4. Coba simpan dengan menekan tombol Ctrl+S dan cobalah sekarang menekan salah satu item di daftar foto tsb. Halaman layar kedua dibuka dan kita bisa kembali ke daftar itu lagi.
 
 Bagus sekali. Kita sudah berhasil menciptakan rute ke layar baru! Sekarang tinggal menambah kode sehingga yang ditampilkan di layar kedua tsb. adalah rincian dari item yang kita tekan.
