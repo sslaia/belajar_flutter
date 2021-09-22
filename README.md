@@ -12,6 +12,7 @@ Ya'ahowu. Dalam folder ini berada semua panduan belajar bersama flutter.
 - [Pertemuan 6, 26 Agustus 2021](./pertemuan_6.md)
 - [Pertemuan 7, 2 September 2021](./pertemuan_7.md)
 - [Pertemuan 8, 9 September 2021](./pertemuan_8.md)
+- [Pertemuan 9, 23 September 2021](./pertemuan_9.md)
 
 ### Garis besar proses belajar bersama
 
