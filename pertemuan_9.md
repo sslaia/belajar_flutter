@@ -179,9 +179,7 @@ Widget **ListTile** memiliki fungsi untuk meregister entah kita menekan salah sa
               },
 
 ```
-Singkatnya persis sama dengan baris kode yang kita gunakan dalam aplikasi sebelumnya.
-
-4. Coba simpan dengan menekan tombol Ctrl+S dan cobalah sekarang menekan salah satu item di daftar foto tsb. Halaman layar kedua dibuka dan kita bisa kembali ke daftar itu lagi.
+4. Coba simpan dengan menekan tombol Ctrl+S dan cobalah sekarang menekan salah satu item di daftar foto tsb. Halaman layar kedua dibuka dan bila kita menekan tombol panah ke kiri kita bisa kembali ke daftar foto itu lagi.
 
 Bagus sekali. Kita sudah berhasil menciptakan rute ke layar baru! Sekarang tinggal menambah kode sehingga yang ditampilkan di layar kedua tsb. adalah rincian dari item yang kita tekan.
 
@@ -189,31 +187,29 @@ Bagus sekali. Kita sudah berhasil menciptakan rute ke layar baru! Sekarang tingg
 
 Sekarang kita harus memutuskan detil apa saja dari item yang ditekan, yang akan ditampilkan di layar kedua. Untuk membuatnya sederhana, marilah menggunakan satu detil saja, artinya hanya menampilkan foto tsb. tanpa nama dan rincian lainnya.
 
-Nah, kalau kita bernavigasi dari satu layar ke layar berikut kita bisa menyeretakan parameter dengan argumennya di dalam tanda kurung kelas tujuan. Karena kita hanya mau menampilkan foto itu saja, maka kita hanya perlu memasukkan parameter foto dan argumennya adalah alamat foto tsb.
+Nah, kalau kita bernavigasi dari satu layar ke layar berikutnya, kita bisa menyertakan parameter dengan argumennya di dalam tanda kurung kelas tujuan. Karena kita hanya mau menampilkan foto itu saja, maka kita hanya perlu memasukkan parameter foto dan argumennya adalah alamat foto tsb.
 
 Kita tahu dari aplikasi gogowaya bahwa kita telah menyimpan akses ke dalam setiap item di daftar foto di dalam variable photo di baris 111. Variable tsb. menyimpan informasi item mana yang sedang ditampilkan di indeks mana.
 
 Yang akan kita buat adalah memberi nama satu parameter mis. foto, lalu argumen kita ambil dari variable photo tadi dengan mengakses alamat Internetnya (url).
 
 1. Pergi ke baris 123 di mana kita tadi mendefinisikan navigasi ke layar kedua. 
-2. Sisipkan parameter foto dengan argumen photo.url
-
-Sekarang kita telah menyertakan informasi alamat foto ke layar kedua. Tetapi kita masih perlu memberitahu LayarKedua bahwa ada informasi yang disertakan dan nama parameternya adalah foto. Maka
+2. Sisipkan parameter foto dengan argumen photo.url. Sekarang kita telah menyertakan informasi alamat foto ke layar kedua. Tetapi kita masih perlu memberitahu LayarKedua bahwa ada informasi yang disertakan dan nama parameternya adalah foto. Maka
 3. Sisipkan kode ini di belakang key di baris 132: `required this.foto`
 4. Sisipkan baris berikut misalnya di baris 134:
 ```
   final String foto;
 ```
-Sekarang kita siap menggunakan alamat tsb. untuk menampilkan foto.
-5. Ganti seluruh widget Text di baris 150 dengan widget Image.network dan masukkan foto, yang baru kita terima dari layar pertama tadi, sebagai argumennya. Keseluruhan baris 150 akan tampak sbb.:
+
+5. Sekarang kita siap menggunakan alamat tsb. untuk menampilkan foto. Ganti seluruh widget Text di baris 150 dengan widget Image.network dan masukkan foto, yang baru kita terima dari layar pertama tadi, sebagai argumennya. Keseluruhan baris 150 akan tampak sbb.:
 ```
           child: Image.network(foto),
 
 ```
 
-Sekarang simpan berkas (dengan menekan tombol Ctrl+S) lalu cobalah seakrang menekan salah satu item di daftar foto itu, maka layar baru akan dibuka dimana foto tsb. ditampilkan.
+Sekarang simpan berkas (dengan menekan tombol Ctrl+S) lalu cobalah sekarang menekan salah satu item di daftar foto itu, maka layar baru akan dibuka di mana foto tsb. ditampilkan.
 
-Selesai! Bertepuk tanganlah. Anda telah banyak mencapai hal hari ini!
+Selesai! Bertepuk tanganlah. Hari ini Anda telah maju selangkah dalam perjalanan Anda menjadi mobile developer!
 
 
 
