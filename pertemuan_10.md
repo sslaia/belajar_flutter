@@ -41,7 +41,7 @@ Sekarang pastikan aplikasi Gogowaya telah terbuka di Android Studio
 
 ## Menciptakan menu drawer
 
-Jauh lebih sederhana daripada yang kita bayangkan.
+Jauh lebih sederhana daripada yang kita bayangkan. Tambahkan parameter drawer di **Scaffold** lalu isi dengan berbagai item menu yang masing-masing ditampilkan dengan widget Text. Namun untuk memungkinkan menggeser ke bawah dan ke atas kalau daftar menu tsb panjang melebihi tinggi layar, gunakanlah widget ListView + ListTile.
 
 
 ## Menyiapkan aplikasi untuk siap diinstalasi/diupload ke Play Store
@@ -63,7 +63,7 @@ kunci\gogowaya\info.txt     <-- satu berkas berisi info aplikasi dan kuncinya
 kunci\gogowaya\gogowaya.jks <-- kunci aplikasi gogowaya
 kunci\gogowaya\gogowaya.apk <-- aplikasi gogowaya, yang bisa diinstalasi (telah ditandatangani)
 
-Langkah menciptakan paket aplikasi untuk rilis
+### Langkah menciptakan paket aplikasi untuk rilis
 
 ![Jendela menandatangani aplikasi](./gogowaya/kunci.png?raw=true)
 
@@ -87,11 +87,18 @@ Langkah menciptakan paket aplikasi untuk rilis
 
 # Kalau ada waktu: Mengorganisir kode, sehingga gampang dibaca.
 
+Sampai sekarang kita menulis semua kode kita di dalam berkas main.dart. Coba perhatikan berkas tsb. Lama-lama berkas tsb. menjadi sesak oleh kode dan kita sulit bernavigasi dari satu bagian ke bagian lainnya.
+
+Di sinilah perlunya memecah-mecahkan kode ke blok-blok yang lebih kecil. Misalnya dalam aplikasi **Gogowaya** yang kita kembangkan minggu lalu ada satu blok kode untuk layar baru (dari baris 131). Daripada menambahkannya di dalam berkas main.dart, lebih baik memindahkannya ke berkas baru misalnya dengan nama halaman_detil.dart.
+
+Silakan memecah-mecahkan berbagai kelas dalam aplikasi Gogowaya menjadi berkas-berkas tersendiri.
 
 
 ## Refleksi
 
-Bagaimana selanjutnya? Apakah kita teruskan dengan mengenal berbagai peralatan (_tools_) yang ada untuk membangun aplikasi atau kita konsentrasi saja membuat aplikasi yang kita mau buat dan mencari segala sesuatu yang kita butuhkan untuk itu?
+Bagaimana selanjutnya? Apakah kita teruskan dengan mengenal berbagai peralatan (_tools_) yang ada untuk membangun aplikasi, seperti selama ini? Saya lihat telah ada banyak tutorial dalam bahasa Indonesia, jadi mungkin kurang efisien menduplikasi yang telah ada. 
+
+Ataukah kita konsentrasi saja membuat satu aplikasi yang diusulkan oleh peserta lalu kita mencari segala peralatan yang kita butuhkan untuk itu? 
 
 
 ## Referensi
