@@ -65,11 +65,12 @@ kunci\gogowaya\gogowaya.apk <-- aplikasi gogowaya, yang bisa diinstalasi (telah 
 
 Langkah menciptakan paket aplikasi untuk rilis
 
-![Jendela menandatangani aplikasi]()
+![Jendela menandatangani aplikasi](./gogowaya/kunci.png?raw=true)
+
 1. Buka **Android Studio**
 2. Di barisan menu, klik **Build** lalu **Generate signed Bundle/APK**
 3. Klik **APK**, lalu **Next**
-4. Di **Key store path**, klik **Create new** (atau Choose existing kalau kuncinya telah dibuat sebelumnya.) Di sini kita andaikan belum ada kunci, jadi harus buat baru.
+4. Di **Key store path**, klik **Create new** (atau Choose existing kalau kuncinya telah dibuat sebelumnya.) Di sini kita andaikan belum ada kunci, jadi harus buat baru (lihat no. 5). Alternatif, langsung masukkan nama path di mana Anda akan menyimpan kunci, mis. saya menyimpannya di /home/username/keys/gogowaya/gogowaya.jks jadi saya masukkan langsung di situ (lihat gambar di atas).
 5. Di jendela yang terbuka, masukkan nama _path_ dari folder yang telah ditetapkan di atas di **Key store path**. Mis. di tempat saya /home/username/keys/gogowaya/gogowaya.jks.
 6. Masukkan key store password yang telah dipersiapkan tadi dan ulangi di tempat **Confirm**.
 7. Di bawah, setelah baris **Alias**, masukkan key password yang telah dipersiapkan tadi. Demikian juga di sini harus diulangi, untuk memastikan kita tidak salah ketik.
