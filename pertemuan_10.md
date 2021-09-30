@@ -57,11 +57,13 @@ Anda perlu menetapkan
 Saran:
 
 Simpanlah versi produksi (aplikasi siap rilis) bersama kuncinya di satu folder tertentu, mis.
+```
 kunci\                      <-- folder kunci, yang berisi kunci berbagai aplikasi yang telah dibuat
 kunci\gogowaya\             <-- folder gogowaya
 kunci\gogowaya\info.txt     <-- satu berkas berisi info aplikasi dan kuncinya
 kunci\gogowaya\gogowaya.jks <-- kunci aplikasi gogowaya
 kunci\gogowaya\gogowaya.apk <-- aplikasi gogowaya, yang bisa diinstalasi (telah ditandatangani)
+```
 
 ### Langkah menciptakan paket aplikasi untuk rilis
 
