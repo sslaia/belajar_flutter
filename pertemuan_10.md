@@ -67,24 +67,25 @@ kunci\gogowaya\gogowaya.apk <-- aplikasi gogowaya, yang bisa diinstalasi (telah 
 
 ### Langkah menciptakan paket aplikasi untuk rilis
 
-![Jendela menandatangani aplikasi](./gogowaya/kunci.png?raw=true)
+![Contoh jendela menandatangani aplikasi](./gogowaya/kunci.png?raw=true)
 
-1. Buka **Android Studio**
-2. Di barisan menu, klik **Build** lalu **Generate signed Bundle/APK**
-3. Klik **APK**, lalu **Next**
-4. Di **Key store path**, klik **Create new** (atau Choose existing kalau kuncinya telah dibuat sebelumnya.) Di sini kita andaikan belum ada kunci, jadi harus buat baru (lihat no. 5). Alternatif, langsung masukkan nama path di mana Anda akan menyimpan kunci, mis. saya menyimpannya di /home/username/keys/gogowaya/gogowaya.jks jadi saya masukkan langsung di situ (lihat gambar di atas).
-5. Di jendela yang terbuka, masukkan nama _path_ dari folder yang telah ditetapkan di atas di **Key store path**. Mis. di tempat saya /home/username/keys/gogowaya/gogowaya.jks.
-6. Masukkan key store password yang telah dipersiapkan tadi dan ulangi di tempat **Confirm**.
-7. Di bawah, setelah baris **Alias**, masukkan key password yang telah dipersiapkan tadi. Demikian juga di sini harus diulangi, untuk memastikan kita tidak salah ketik.
-8. Masukkan nama (seandainya ini aplikasi komersial, berarti nama di sini adalah nama lengkap seperti tertera dalam dokumen resmi)
-9. Silakan mengisi detil lainnya yang sesuai (Country code Indonesia adalah ID)
-10. Tekan tombol **OK**.
-11. Tekan tombol **Next**.
-12. Di jendela baru pilih **release** untuk **Build Variants**.
-13. Tekan tombol **Finish**. Perhatikan di situ ditunjukkan juga di mana aplikasi siap jadi itu nanti disimpan.
-14. Setelah selesai akan muncul notifikasi Generate signed APK **di sebelah kanan bawah**. Buka jendela tsb. dengan mengklik tanda panah bawah di sebelah kanan jendela notifikasi, lalu pilih **locate**.
-15. Anda akan menemukan aplikasi yang telah dikompilasi tsb. dengan nama **app-release.apk** di folder android/app/release/
-16. Tinggal ubah namanya menjadi nama yang sesuai mis. gogowaya.apk dan siap untuk diinstalasi di smartphone lain.
+1. Buka aplikasi Kartu Nama di dalam **Android Studio**
+2. Dari menu **Tools > Flutter > Open for editing in Android Studio**. Tunggu sampai Gradle selesai mensinkronisasi berbagai komponen yang diperlukan untuk mengkompilasi aplikasi ke dalam bahasa mesin.
+3. Di barisan menu, klik **Build** lalu **Generate signed Bundle/APK**
+4. Klik **APK**, lalu **Next**
+5. Di **Key store path**, klik **Create new** (atau Choose existing kalau kuncinya telah dibuat sebelumnya.) Di sini kita andaikan belum ada kunci, jadi harus buat baru (lihat no. 5). Alternatif, langsung masukkan nama path di mana Anda akan menyimpan kunci, mis. saya menyimpannya di /home/username/keys/gogowaya/gogowaya.jks jadi saya masukkan langsung di situ (lihat gambar di atas).
+6. Di jendela yang terbuka, masukkan nama _path_ dari folder yang telah ditetapkan di atas di **Key store path**. Mis. di tempat saya /home/username/keys/gogowaya/gogowaya.jks.
+7. Masukkan key store password yang telah dipersiapkan tadi dan ulangi di tempat **Confirm**.
+8. Di bawah, setelah baris **Alias**, masukkan key password yang telah dipersiapkan tadi. Demikian juga di sini harus diulangi, untuk memastikan kita tidak salah ketik.
+9. Masukkan nama (seandainya ini aplikasi komersial, berarti nama di sini adalah nama lengkap seperti tertera dalam dokumen resmi)
+10. Silakan mengisi detil lainnya yang sesuai (Country code Indonesia adalah ID)
+11. Tekan tombol **OK**.
+12. Tekan tombol **Next**.
+13. Di jendela baru pilih **release** untuk **Build Variants**.
+14. Tekan tombol **Finish**. Perhatikan di situ ditunjukkan juga di mana aplikasi siap jadi itu nanti disimpan.
+15. Setelah selesai akan muncul notifikasi Generate signed APK **di sebelah kanan bawah**. Buka jendela tsb. dengan mengklik tanda panah bawah di sebelah kanan jendela notifikasi, lalu pilih **locate**.
+16. Anda akan menemukan aplikasi yang telah dikompilasi tsb. dengan nama **app-release.apk** di folder android/app/release/
+17. Tinggal ubah namanya menjadi nama yang sesuai mis. gogowaya.apk dan siap untuk diinstalasi di smartphone lain.
 
 
 # Kalau ada waktu: Mengorganisir kode, sehingga gampang dibaca.
