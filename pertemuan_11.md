@@ -2,6 +2,8 @@
 
 Pertemuan 11, 7 Oktober 2021
 
+Catatan: peserta memutuskan untuk langsung merangcang aplikasi baru di akhir panduan ini.
+
 
 ## Merangkum kembali apa yang telah dipelajari kali lalu
 
@@ -85,7 +87,33 @@ Silakan memecah-mecahkan berbagai kelas dalam aplikasi Gogowaya menjadi berkas-b
 
 ## Merancang aplikasi baru
 
-Lihat presentasi tersendiri.
+### Jenis aplikasi yang mau dibuat
+
+Berbagai usul: biodata, dating app, aplikasi dengan fungsi singnup/signin, aplikasi absensi, aplikasi pengguna (merekam karaketer, hobi, pendidikan dlsb.), aplikasi buku alamat/daftar anggota.
+
+Kolom-kolom yang diharapkan:
+- nama_depan
+- nama_belakang
+- email
+- telepon
+- tanggal lahir
+- pendidikan
+- alamat
+- hobbi
+- foto
+- jenis kelamin
+dst.
+
+Strategi yang ditempuh: masing-masing membuat aplikasi yang mirip tetapi berbeda atau semua membuat aplikasi yang sama?
+
+Semua sepakat untuk membuat aplikasi yang sama.
+
+
+### Belajar membuat formulir untuk pembuatan database
+
+Untuk ini dibutuhkan widget **TextField** atau **TextFormField**.
+Latihan membuat kedua widget tsb. ada di aplikasi [Contoh Formulir](https://github.com/sslaia/contoh_formulir).
+
 
 
 ## Referensi
