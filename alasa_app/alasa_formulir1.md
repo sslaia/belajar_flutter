@@ -236,4 +236,4 @@ Keseluruhan kodenya bisa dilihat di [Aplikasi Alasa](https://github.com/sslaia/a
 Selesai!
 
 
-**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./alasa_anatomi.md) | [Mendesain database](./alasa_design_database.md) | [Merancang formulir (TextFormField)](./alasa_formulir2.md)
+**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./alasa_anatomi.md) | [Mendesain database](./alasa_design_database.md) | [Merancang formulir dengan validasi](./alasa_formulir2.md)
