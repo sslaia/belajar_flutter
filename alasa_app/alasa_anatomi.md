@@ -120,4 +120,4 @@ Entah apa pun gambar yang kita gunakan, semuanya untuk membantu kita memvisualis
 ![Tampilan pohon widget di layar](./pohon_screen.jpg?raw=true)
 
 
-[Kembali ke Menu Utama](./README.md)
+**Navigasi**: [Menu Utama](./README.md) | [Mendesain database](./alasa_design_database.md)

@@ -27,4 +27,4 @@ Untuk membuat supaya aplikasi Alasa tidak terlalu kompleks kita memilih 6 kolom 
 Inilah nanti berbagai kolom yang dimasukkan ke dalam tabel database, yang akan dibuat. Pembuatan database sendiri baru akan terlaksana pada tahap setelah pembuatan formulir memasukkan data.
 
 
-[Kembali ke Menu Utama](./README.md)
+**Navigasi**: [Menu Utama](./README.md) | [Anatomi satu aplikasi](./alasa_anatomi.md) | [Merancang formulir (TextField)](./alasa_formulir1.md)
