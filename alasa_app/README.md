@@ -51,8 +51,8 @@ Seandainya pajangan folder tsb tertutup, silakan membukanya dengan mengklik **Pr
 
 1. [Anatomi satu aplikasi](./alasa_anatomi.md)
 2. [Mendesain database Alasa](./alasa_design_database.md)
-3. [Merancang formulir, bagian pertama](./alasa_formulir1.md)
-4. [Merancang formulir, bagian kedua](./alasa_formulir2.md)
+3. [Merancang formulir, bagian pertama (TextField)](./alasa_formulir1.md)
+4. [Merancang formulir, bagian kedua (TextFormField)](./alasa_formulir2.md)
 5. [Membuat database](./alasa_membuat_database.md)
 
 

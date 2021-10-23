@@ -15,6 +15,8 @@ Ya'ahowu. Dalam folder ini berada semua panduan belajar bersama flutter.
 - [Pertemuan 9, 23 September 2021](./pertemuan_9.md)
 - [Pertemuan 10, 30 September 2021](./pertemuan_10.md)
 - [Pertemuan 11, 7 Oktober 2021](./pertemuan_11.md)
+- Mulai dari sini dan seterusnya: [Membuat aplikasi Alasa](./alasa_app/)
+
 
 ### Garis besar proses belajar bersama
 
