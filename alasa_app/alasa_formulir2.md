@@ -148,6 +148,9 @@ Anda kini bisa melihat hasilnya di emulator.
 2. Jalankan aplikasi dengan menekan tombol panah hijau di baris icon menu. Setelah selesai kompilasi dan formulir tampil di layar emulator,
 3. Klik tombol **Kirim**. Anda akan melihat beberapa _error_ muncul dengan pesan yang ditampilkan dalam warna merah, salah satu misalnya adalah "Masukan nama Anda!"
 
+![Formulir Alasa](./formulir.jpg?raw=true)
+
+
 Validator telah berfungsi dan kini formulir siap digunakan. Untuk itu kita siap membuat database.
 
 Kode lengkap formulir, yang telah diperbaharui dengan fungsi validasi ini ada di [alasa_app](https://github.com/sslaia/alasa_app/blob/membuat_formulir_validasi/lib/home_page.dart)
