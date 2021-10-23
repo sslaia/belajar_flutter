@@ -230,7 +230,7 @@ Keseluruhan kode bagian formulir ini nampak sbb.:
 
 ```
 
-Keseluruhan kodenya bisa dilihat di [Aplikasi Alasa](https://github.com/sslaia/alasa_app/tree/membuat_formulir2). Silakan bandingkan kode Anda dengan kode di sana.
+Keseluruhan kodenya bisa dilihat di [Aplikasi Alasa](https://github.com/sslaia/alasa_app/blob/membuat_formulir2/lib/home_page.dart). Silakan bandingkan kode Anda dengan kode di sana.
 
 
 Selesai!
