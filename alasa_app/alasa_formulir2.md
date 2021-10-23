@@ -159,4 +159,4 @@ Dalam kode itu ada bagian onPressed, yang mengatakan, bila pengguna menekan tomb
 Selesai!
 
 
-[Kembali ke Menu Utama](./alasa_app.md)
+[Kembali ke Menu Utama](./README.md)

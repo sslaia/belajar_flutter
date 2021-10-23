@@ -7,7 +7,7 @@ Belajar membuat aplikasi berbasis database di Flutter melalui aplikasi Alasa
 
 Silakan mengamati kode templat aplikasi yang otomatis dibuat waktu aplikasi baru Alasa diciptakan.
 
-![Anatomi aplikasi Alasa](./alasa_app/anatomi1.png?raw=true)
+![Anatomi aplikasi Alasa](./anatomi1.png?raw=true)
 
 1. Setiap aplikasi memiliki pintu gerbang (baris 3) di mana komputer mulai masuk ketika menjalankan aplikasi tsb. Namanya adalah **main()**. Dari sinilah diberi petunjuk di mana kode untuk menjalankan aplikasi, yakni di **MyApp()** dalam contoh ini (baris 4).
 2. Kode dari **MyApp()** tsb. berada dalam kelas tersendiri yang mulai dari baris 7 dst.
@@ -109,7 +109,7 @@ Mungkin kini Anda sudah mulai merasakan betapa konstruksi dari aplikasi di dalam
 
 Cara lain mem-visualisasikannya adalah dengan menggunakan gambar pohon. Dan memang sering orang menggunakan visualisasi terakhir ini. Para developer sering bicara tentang pohon widget (_widget tree_), tetapi dalam hal ini pohon terbalik.
 
-![Pohon widget aplikasi](./alasa_app/pohon.jpg?raw=true)
+![Pohon widget aplikasi](./pohon.jpg?raw=true)
 
 Saya sendiri sering membayangkan gambar tsb. seperti rumah. Jadi mulai dari fondasi rumah (_Scaffold_), di atasnya dibangun lantai, dinding dan kolom. Di atas lantai ada meja, kursi, bangku dlsb. Kemudian di atas kolum dan dinding ada langit-langit dan loteng. Di dalam loteng ada mungkin banyak hal lain lagi. Kemudian paling atas ada atap.
 
@@ -117,7 +117,7 @@ Cara lain membayangkannya adalah bagaikan membangun sebuah bangunan dari potonga
 
 Entah apa pun gambar yang kita gunakan, semuanya untuk membantu kita memvisualisasikan relasi berbagai widget dalam membangun aplikasi. Keseluruhan proses membangun aplikasi mirip dengan membongkar pasang berbagai widget (Center, Column, Text, Button, Icon, Image, dst.). Berbagai widget tsb. mirip potongan-potongan lego.
 
-![Tampilan pohon widget di layar](./alasa_app/pohon_screen.jpg?raw=true)
+![Tampilan pohon widget di layar](./pohon_screen.jpg?raw=true)
 
 
-[Kembali ke Menu Utama](./alasa_app.md)
+[Kembali ke Menu Utama](./README.md)

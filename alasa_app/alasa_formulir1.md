@@ -236,4 +236,4 @@ Keseluruhan kodenya bisa dilihat di [Aplikasi Alasa](https://github.com/sslaia/a
 Selesai!
 
 
-[Kembali ke Menu Utama](./alasa_app.md)
+[Kembali ke Menu Utama](./README.md)

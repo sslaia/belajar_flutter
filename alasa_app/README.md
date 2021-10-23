@@ -30,7 +30,7 @@ Untuk mulai dengan pengembangan aplikasi Alasa silakan menciptakan aplikasi baru
 
 Silakan mengamati struktur folder aplikasi baru ini, yang terpajang di kolom sebelah kiri (lihat gambar berikut).
 
-![Folder aplikasi Alasa](./alasa_app/struktur_folder.png?raw=true)
+![Folder aplikasi Alasa](./struktur_folder.png?raw=true)
 
 Seandainya pajangan folder tsb tertutup, silakan membukanya dengan mengklik **Project** di pinggir kiri jendela **AS** (no. 1 dalam gambar di atas) dan pastikan modusnya "Project" dan bukan yang lain (no. 2).
 
@@ -53,7 +53,7 @@ Seandainya pajangan folder tsb tertutup, silakan membukanya dengan mengklik **Pr
 2. [Mendesain database Alasa](./alasa_design_database.md)
 3. [Merancang formulir, bagian pertama (TextField)](./alasa_formulir1.md)
 4. [Merancang formulir, bagian kedua (TextFormField)](./alasa_formulir2.md)
-5. [Membuat database](./alasa_membuat_database.md)
+5. [Membuat database](./alasa_membuat_database1.md)
 
 
 
