@@ -150,6 +150,9 @@ Anda kini bisa melihat hasilnya di emulator.
 
 ![Formulir Alasa](./formulir.jpg?raw=true)
 
+4. Silakan juga mengklik dalam kolom isian telepon untuk melihat bahwa keyboard otomatis diubah ke dalam modus angka. Demikian juga bila Anda mengklik di kolom isian tanggal lahir.
+5. Bila Anda mengklik dalam kolom isian email, tanda @ akan otomatis muncul di baris bawah keyboard, karena alamat email harus menggunakan tanda @!
+
 
 Validator telah berfungsi dan kini formulir siap digunakan. Untuk itu kita siap membuat database.
 
