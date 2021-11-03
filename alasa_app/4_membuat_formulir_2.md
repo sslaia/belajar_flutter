@@ -159,4 +159,4 @@ Validator telah berfungsi dan kini formulir siap digunakan. Untuk itu kita siap 
 Kode lengkap formulir, yang telah diperbaharui dengan fungsi validasi ini ada di [alasa_app](https://github.com/sslaia/alasa_app/blob/membuat_formulir_validasi/lib/home_page.dart)
 
 
-**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./alasa_anatomi.md) | [Mendesain database](./alasa_design_database.md) | [Merancang formulir tanpa validasi](./alasa_formulir1.md) | [Membuat database](./alasa_database1.md)
+**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir tanpa validasi](./3_membuat_formulir_1.md) | [Membuat database](./5_membuat_database.md)

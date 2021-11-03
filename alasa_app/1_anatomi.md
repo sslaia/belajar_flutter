@@ -117,7 +117,7 @@ Cara lain membayangkannya adalah bagaikan membangun sebuah bangunan dari potonga
 
 Entah apa pun gambar yang kita gunakan, semuanya untuk membantu kita memvisualisasikan relasi berbagai widget dalam membangun aplikasi. Keseluruhan proses membangun aplikasi mirip dengan membongkar pasang berbagai widget (Center, Column, Text, Button, Icon, Image, dst.). Berbagai widget tsb. mirip potongan-potongan lego.
 
-![Tampilan pohon widget di layar](./pohon_screen.jpg?raw=true)
+![Tampilan pohon widget di layar](./pohon_screen.jpg)
 
 
-**Navigasi**: [Menu Utama](./README.md) | [Mendesain database](./alasa_design_database.md)
+**Navigasi**: [Menu Utama](./README.md) | [Mendesain database](./2_mendesign_database.md)

@@ -49,10 +49,12 @@ Seandainya pajangan folder tsb tertutup, silakan membukanya dengan mengklik **Pr
 
 ## Langkah-langkah
 
-1. [Anatomi satu aplikasi](./alasa_anatomi.md)
-2. [Mendesain database](./alasa_design_database.md)
-3. [Merancang formulir (TextField)](./alasa_formulir1.md)
-4. [Merancang formulir dengan validasi (TextFormField)](./alasa_formulir2.md)
-5. [Membuat database](./alasa_membuat_database1.md)
+1. [Anatomi satu aplikasi](./1_anatomi.md)
+2. [Mendesain database](./2_mendesign_database.md)
+3. [Merancang formulir (TextField)](./3_membuat_formulir_1.md)
+4. [Merancang formulir dengan validasi (TextFormField)](./4_membuat_formulir_2.md)
+5. [Membuat database](./5_membuat_database.md)
+5. [Mengatur homepage](./6_mengatur_home_page.md)
+5. [Manipulasi database](./7_manipulasi_database.md)
 
 
