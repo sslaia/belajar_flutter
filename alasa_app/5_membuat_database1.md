@@ -330,4 +330,4 @@ Selesai!
 
 
 
-**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir](./3_membuat_formulir_1.md) | [Merancang formulir dengan validasi](./4_membuat_formulir_2.md) | [Membuat database](./6_mengatur_home_page.md)
+**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir](./3_membuat_formulir_1.md) | [Merancang formulir dengan validasi](./4_membuat_formulir_2.md) | [Mengatur Homepage](./6_mengatur_home_page.md)

@@ -129,4 +129,4 @@ Kini jalankan aplikasi dengan menekan tombol tanda panah berwarna hijau. Coba be
 
 
 
-**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir](./3_membuat_formulir_1.md) | [Merancang formulir dengan validasi](./4_membuat_formulir_2.md) | [Membuat database](./5_membuat_database.md) | [Mengatur ulang HomePage](./7_manipulasi_database.md)
+**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir](./3_membuat_formulir_1.md) | [Merancang formulir dengan validasi](./4_membuat_formulir_2.md) | [Membuat database dengan Moor](./5_membuat_database1.md) | [Membuat database dengan Sqflite](./7_membuat_database2.md)

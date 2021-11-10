@@ -53,8 +53,9 @@ Seandainya pajangan folder tsb tertutup, silakan membukanya dengan mengklik **Pr
 2. [Mendesain database](./2_mendesign_database.md)
 3. [Merancang formulir (TextField)](./3_membuat_formulir_1.md)
 4. [Merancang formulir dengan validasi (TextFormField)](./4_membuat_formulir_2.md)
-5. [Membuat database](./5_membuat_database.md)
-5. [Mengatur homepage](./6_mengatur_home_page.md)
-5. [Manipulasi database](./7_manipulasi_database.md)
+5. [Membuat database dengan Moor](./5_membuat_database1.md)
+6. [Mengatur homepage](./6_mengatur_home_page.md)
+7. [Membuat database dengan Sqflite](./7_membuat_database2.md)
+8. [Menampilkan daftar anggota](./8_membuat_daftar_anggota.md)
 
 

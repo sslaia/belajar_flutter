@@ -119,9 +119,10 @@ Dan untuk menampilkan pesan kepada pengguna bahwa data telah disimpan, kita meng
                           duration: Duration(seconds: 3),
                         ),
                       );
-``` 
+```
 
 Keseluruhan kode **ElevatedButton** akan menjadi seperti ini setelah ditambah validasi dan pesan di atas:
+
 ```
                 ElevatedButton(
                   onPressed: () {
@@ -159,4 +160,4 @@ Validator telah berfungsi dan kini formulir siap digunakan. Untuk itu kita siap 
 Kode lengkap formulir, yang telah diperbaharui dengan fungsi validasi ini ada di [alasa_app](https://github.com/sslaia/alasa_app/blob/membuat_formulir_validasi/lib/home_page.dart)
 
 
-**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir tanpa validasi](./3_membuat_formulir_1.md) | [Membuat database](./5_membuat_database.md)
+**Navigasi**: [Menu Utama](./README.md) | [Anatomi aplikasi](./1_anatomi.md) | [Mendesain database](./2_mendesign_database.md) | [Merancang formulir tanpa validasi](./3_membuat_formulir_1.md) | [Membuat database](./5_membuat_database1.md)
